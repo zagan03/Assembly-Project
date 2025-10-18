@@ -14,36 +14,35 @@ Deterministic I/O using `scanf/printf` and input redirection (`./task < input.tx
 
 ## Test it with the official tester
 
-# 1) clone the checker somewhere on disk
+ 1) clone the checker somewhere on disk
 
 git clone https://github.com/iancuivasciuc/csa
 
-# 2) build this project
+ 2) build this project
 
 make
 
-# 3) copy binaries next to checker.py
+ 3) copy binaries next to checker.py
 
 make install_official TESTER_DIR=~/csa/project
 
-# (equivalent to:)
+ (equivalent to:)
+ cp build/task1 ~/csa/project/task1
 
-# cp build/task1 ~/csa/project/task1
+ cp build/task2 ~/csa/project/task2
 
-# cp build/task2 ~/csa/project/task2
+ chmod +x ~/csa/project/task1 ~/csa/project/task2
 
-# chmod +x ~/csa/project/task1 ~/csa/project/task2
-
-# 4) run the checker
+ 4) run the checker
 
 make grade TESTER_DIR=~/csa/project
 
-# or:
+ or:
 
-# cd ~/csa/project && python3 checker.py
+ cd ~/csa/project && python3 checker.py
 
-# show summaries:
+ show summaries:
 
-# python3 checker.py -s
+ python3 checker.py -s
 
-# python3 checker.py -s task1
+ python3 checker.py -s task1
