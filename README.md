@@ -8,6 +8,7 @@ Two small executables in x86 Assembly (AT&T) that simulate an OS-like storage mo
 Supported commands (via STDIN): **ADD / GET / DELETE / DEFRAG**.  
 Deterministic I/O using `scanf/printf` and input redirection (`./task < input.txt`).
 
+For the full assignment details, see: [ASSIGNMENT.md](ASSIGNMENT.md)
 ---
 
 ## Project Structure
