@@ -1,0 +1,25 @@
+# Build artifacts
+/build/
+*.o
+*.out
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Logs / dumps
+*.log
+core
+core.*
+
+# Editor/OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.#*
+.vscode/
+.idea/
+
